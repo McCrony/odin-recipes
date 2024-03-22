@@ -6,14 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <style>
+        *{
+            font-family:'Courier New', Courier, monospace;
+        }
         img{
-            border-radius: 10px;
+            border-radius: 50px;
+            width: auto;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ol{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 50px;
+        
+        }
+
+        ol li{
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+       a {
+            text-decoration: none;
+            color:#a9021b;
+           
         }
     </style>
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <img src="recipes/images/Recipes-Banner.jpg" alt="recipe banner image">
+    <div class="image">
+        <img src="recipes/images/Recipes-Banner.jpg" alt="recipe banner image">
+    </div>
     <br>
     <ol>
         <li> <a href="recipes/got-no-beef-stew.html"> Got No Beef Stew</a> </li>
