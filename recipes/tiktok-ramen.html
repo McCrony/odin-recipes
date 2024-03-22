@@ -5,10 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TikTok Ramen</title>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            padding: 50px;
+        }
+
+        img {
+            border-radius: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        .homeButton {
+            background-color: #da5029;
+            border-radius: 10px;
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <h1>TikTok Ramen</h1>
-    <img src="images/TikTokRamen.jpg" alt="">
+    <div class="image">
+        <img src="images/TikTokRamen.jpg" alt=" TikTokRamen image">
+
+    </div>
 
     <h3>Description</h3>
     <p>Everything bagel seasoning is a seemingly odd addition, but it weirdly ties the whole dish together perfectly. But, you could use sesame seeds instead.</p>
@@ -35,6 +79,8 @@
 
         </li>
     </ul>
-    <a href="../index.html">Home</a>
+    <div class="home">
+        <a href="../index.html" class="homeButton">Home</a>
+    </div>
 </body>
 </html>
